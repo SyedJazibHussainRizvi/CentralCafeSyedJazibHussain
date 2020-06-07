@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century Gothic;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background3.jpg); */
+    box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background3.jpg);
+}
+header{
+/* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("homepic.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center; */
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px !important;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.9s ease;
+    font-size: 14px;
+    font-family: new;
+}
+ul li a:hover{
+    background-color: rgb(240, 169, 62);
+    color: rgb(206, 65, 30);
+}
+.logo img{
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    height:auto ;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+@font-face{
+    font-family: new;
+    src: url(LEMONMILK-Bold.otf);
+}
+@font-face{
+    font-family: new1;
+    src: url(Dream\ Catcher.ttf);
+}
+
+/* .container{
+    
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense!;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh 
+                 "1fr 1fr 1fr 1fr 1fr" 33.33vh 
+    "1fr 1fr 1fr 1fr 1fr" 33.33vh ;
+    grid-gap:2px;
+   
+}
+.container .box{
+    position: relative ;
+    background: #ccc ;
+}
+.container .box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container .box.a{
+    grid-row: span 2;
+}
+.container .box.b,
+.container .box.f,
+.container .box.h,
+.container .box.j{
+    grid-column: span 2;
+}
+ @media (max-width:991px){
+    .container{
+        grid-template: "1fr 1fr 1fr" 250px
+                       "1fr 1fr 1fr" 250px 
+                       "1fr 1fr 1fr" 250px 
+                       "1fr 1fr 1fr" 250px
+                       "1fr 1fr 1fr" 250px ;
+    }                    
+ }
+ div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  .gallery{
+    border: 1px solid #ccc;
+  }
+  .gallery img{
+    width: 100%;
+    height: auto;
+  }
+  .des{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family:new3;
+  }
+  .responisve{
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  @font-face{
+    font-family:new3;
+    src: url(DK\ Lemon\ Yellow\ Sun.otf);
+  }

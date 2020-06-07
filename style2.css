@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century Gothic;
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background2.jpg); */
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background2.jpg);
+}
+/* header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("homepic.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+} */
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px !important;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.9s ease;
+    font-size: 14px;
+    font-family: new;
+}
+ul li a:hover{
+    background-color: rgb(233, 149, 22) !important ;
+    color: rgb(206, 65, 30);
+}
+.logo img{
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    height:auto ;
+    
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: new1;
+    font-size: 10vw;
+    font-stretch: wider;
+}
+@font-face{
+    font-family: new;
+    src: url(LEMONMILK-Bold.otf);
+}
+@font-face{
+    font-family: new1;
+    src: url(Dream\ Catcher.ttf);
+}
+.menu_title{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  background-attachment: fixed;
+}
+.menu_title h1{
+  color: black);
+  font-size: 50px;
+  font-family: new6;
+  font-size: 10vw;
+  font-stretch: wider;
+}
+
+@font-face{
+  font-family: new6;
+  src: url(KGDefyingGravity.ttf);
+}
+
+@font-face{
+  font-family: new4;
+  src: url(KR\ Chef.ttf);
+}
+.menufont{
+  font-family: new5;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  font-size: 50px;
+  font-weight: bold;
+}
+@font-face{
+  font-family: new5;
+  src: url(February.ttf);
+}
+@font-face{
+  font-family:new6 ;
+  src: url(Stayola.ttf);
+}
+.menupic{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 0 6px;
+    float: left;
+    width: 40%;
+}
+.menupic2{
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 0 6px;
+    float: left;
+    width: 40%;
+}
+.menupic3{
+  position: absolute;
+  top: 310%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 0 6px;
+    float: left;
+    width: 40%;
+}
+.menupic4{
+  position: absolute;
+  top: 420%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 0 6px;
+    float: left;
+    width: 40%;
+}
+.menupic5{
+  position: absolute;
+  top: 530%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 0 6px;
+    float: left;
+    width: 40%;
+}
+.menupic6{
+  position: absolute;
+  top: 640%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  padding: 0 6px;
+    float: left;
+    width: 40%;
+}
